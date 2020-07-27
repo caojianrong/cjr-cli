@@ -1,0 +1,32 @@
+{
+  "name": "cjr-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cjr":"cjr"
+  },
+  "bin":{
+    "cjr":"bin/cjr.js",
+    "cjr-init":"bin/cjr-init.js"
+  },
+  "dependencies": {
+    "async": "^2.6.1",
+    "chalk": "^2.4.1",
+    "commander": "^2.16.0",
+    "consolidate": "^0.15.1",
+    "download-git-repo": "^1.0.2",
+    "handlebars": "^4.0.11",
+    "inquirer": "^6.0.0",
+    "metalsmith": "^2.3.0",
+    "ora": "^3.0.0",
+    "request": "^2.87.0",
+    "rimraf": "^2.6.2",
+    "semver": "^5.5.0",
+    "user-home": "^2.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
